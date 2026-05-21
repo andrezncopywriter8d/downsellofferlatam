@@ -17,17 +17,17 @@
           alt="Oferta downsell LATAM com chamada principal, beneficios, prova visual e botoes de chamada para acao."
         >
 
-        <a
-          class="hotspot hotspot-primary"
-          href="#checkout"
-          aria-label="Si, quiero agregarlo ahora"
-        ></a>
-        <a
-          class="hotspot hotspot-decline"
-          href="#no-gracias"
-          aria-label="No, continuar sin esta oferta"
-        ></a>
+        <div
+          id="hotmart-sales-funnel"
+          class="hotmart-cta"
+          aria-label="Botoes de compra Hotmart"
+        ></div>
       </section>
     </main>
+
+    <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+    <script>
+      checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
+    </script>
   </body>
 </html>
