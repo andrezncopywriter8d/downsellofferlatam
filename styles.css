@@ -46,19 +46,21 @@ body {
   left: 57.2%;
   top: 47.4%;
   width: 37.4%;
-  height: 8.5%;
+  height: 8.4%;
   z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   overflow: hidden;
   line-height: normal;
+  background: transparent;
 }
 
 .hotmart-cta > * {
   width: 100% !important;
   max-width: 100% !important;
   height: 100% !important;
+  pointer-events: auto;
   opacity: 0;
 }
 
@@ -68,6 +70,7 @@ body {
   width: 100% !important;
   height: 100% !important;
   max-width: 100% !important;
+  pointer-events: auto;
   opacity: 0;
 }
 
